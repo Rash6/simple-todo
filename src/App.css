@@ -1,7 +1,40 @@
 .App {
   text-align: center;
+  border: 3px;
 }
 
+*{
+  background-color: rgb(72, 92, 100);
+}
+.box{
+  width: 400px;
+  padding: 15px;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 9px;
+margin:auto;
+}
+input{
+  width: 400px;
+  padding: 15px;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 9px;
+}
+.plus{
+  width: 40px;
+ 
+  padding: 11px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +60,12 @@
 .App-link {
   color: #61dafb;
 }
+.box{
+  width:20px;
+  height:30px;
+  border:2px;
 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
